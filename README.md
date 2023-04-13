@@ -26,15 +26,26 @@ gen_params.sh/gen_params_manhattan.sh/gen_params_gauss.sh: <br/>
 create the parameters file for models that we are running simulation on
 
 parse_output.py: <br/> 
-    <br/> 
+    take in raw traces data and generate usable dataframes for metric calculation<br/> 
  <br/> 
 calc_metric.py: <br/> 
-      output a panda data frame that contains the label, filename, NumPy array from image_load, and the binding boxes which will be used in the OpenCV live      Detection. The output xml_df will be used in the image_proj.py to test the generalization ability across different image datasets for the trained CNN      image classifier<br/> 
+      calculate the metrics by taking averages of traces dataframes of each time step and general a result dataframe containing metric data.<br/> 
 <br/> 
   plot_metric.py: <br/> 
-    grab images from the full stratified dataset folder and copy them into the test_data folder and generate a panda data frame which will be used in the       image_project.py for testing the generalization ability within the same image datasets for the trained CNN image classifier<br/> 
+    plot the metric dataframe and generate surface plot for each set of parameters in each model.r<br/> 
 <br/> 
   gen_files_new.sh:<br/> 
-    1. Main console file we train the CNN model which uses image_dataset_from_directory to grab training images from train_data subfolders (stratified dataset).<br/> 
-    2. perform same dataset accuracy testing(stratified dataset testing) and different dataset accuracy testing(raw dataset testing) <br/> 
-    3. find_the_best_hyperparameter function finds the best dense_unit (50 according to my output) <br/> 
+    1. main console that generate the traces, call the python scripts to generate the metric dataframes and plot them<br/> 
+    2. generate directories for traces, plot outputs and traces dataframes<br/> 
+    3. output the final result by moving the relevant files to the corresponding directory. <br/> 
+    
+## Authors
+
+--Jiaxuan Chen
+
+## Version history
+1.0 --> initial release 
+
+## License
+
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License
