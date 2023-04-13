@@ -40,8 +40,7 @@ calc_metric.py: <br/>
     3. output the final result by moving the relevant files to the corresponding directory. <br/> 
     
 ## Authors
-
---Jiaxuan Chen
+Jiaxuan Chen
 
 ## Version history
 1.0 --> initial release 
