@@ -22,3 +22,19 @@ This project aims to explore approaches to characterize device mobility in a MAN
     
 
 ## Script Description
+gen_params.sh/gen_params_manhattan.sh/gen_params_gauss.sh: <br/>
+create the parameters file for models that we are running simulation on
+
+parse_output.py: <br/> 
+    <br/> 
+ <br/> 
+calc_metric.py: <br/> 
+      output a panda data frame that contains the label, filename, NumPy array from image_load, and the binding boxes which will be used in the OpenCV live      Detection. The output xml_df will be used in the image_proj.py to test the generalization ability across different image datasets for the trained CNN      image classifier<br/> 
+<br/> 
+  plot_metric.py: <br/> 
+    grab images from the full stratified dataset folder and copy them into the test_data folder and generate a panda data frame which will be used in the       image_project.py for testing the generalization ability within the same image datasets for the trained CNN image classifier<br/> 
+<br/> 
+  gen_files_new.sh:<br/> 
+    1. Main console file we train the CNN model which uses image_dataset_from_directory to grab training images from train_data subfolders (stratified dataset).<br/> 
+    2. perform same dataset accuracy testing(stratified dataset testing) and different dataset accuracy testing(raw dataset testing) <br/> 
+    3. find_the_best_hyperparameter function finds the best dense_unit (50 according to my output) <br/> 
