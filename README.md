@@ -35,8 +35,8 @@ calc_metric.py: <br/>
     plot the metric dataframe and generate surface plot for each set of parameters in each model.r<br/> 
 <br/> 
   gen_files_new.sh:<br/> 
-    1. main console that generate the traces, call the python scripts to generate the metric dataframes and plot them<br/> 
-    2. generate directories for traces, plot outputs and traces dataframes<br/> 
+    1. main console file that generates the traces, calls the python scripts to generate the metric dataframes and plot the metric dataframes.<br/> 
+    2. generate directories for traces, plot outputs and traces dataframes. <br/> 
     3. output the final result by moving the relevant files to the corresponding directory. <br/> 
     
 ## Authors
