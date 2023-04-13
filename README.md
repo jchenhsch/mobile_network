@@ -1,4 +1,4 @@
-# mobile_network
+# Mobile ad hoc network simulations
 Ad hoc mobile network analysis on mobility models 
 
 ## Project overview
