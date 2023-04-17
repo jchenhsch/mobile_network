@@ -41,8 +41,9 @@ calc_metric.py: <br/>
 Jiaxuan Chen
 
 ## Version history
-1.0 --> initial release 
-
+1.0 --> initial release
+1.1 --> update the test scripts
+1.2 --> current version, with data and plot output updated
 ## License
 
 This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License
