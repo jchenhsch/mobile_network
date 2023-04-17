@@ -9,7 +9,6 @@ This project aims to explore approaches to characterize device mobility in a MAN
   ### To run the project
     git clone git@github.com:jchenhsch/mask_classification.git 
     ./gen_file_new.sh
-  > do I need to make the script executable and no need to type sudo bash?
 
   ### Dependency requirement
   
@@ -17,10 +16,6 @@ This project aims to explore approaches to characterize device mobility in a MAN
     https://sys.cs.uos.de/bonnmotion/
     pip3 install -r requirements.txt 
     
-  >In case the requirements not working: pip install pipreqs<br/>
-  >pipreqs /path/to/project<br/>
-    
-
 ## Script Description
 gen_params.sh/gen_params_manhattan.sh/gen_params_gauss.sh: <br/>
 create the parameters file for models that we are running simulation on
