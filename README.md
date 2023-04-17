@@ -15,6 +15,8 @@ This project aims to explore approaches to characterize device mobility in a MAN
   
     To install Bonnmotion(mobility model scenarios generation tool): 
     https://sys.cs.uos.de/bonnmotion/
+    
+    To install the dependency packages
     pip3 install -r requirements.txt 
     
 ## Script Description
