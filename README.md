@@ -8,7 +8,7 @@ This project aims to explore approaches to characterize device mobility in a MAN
 ## Implementation Guide & Dependency requirement
   ### To run the project
     git clone git@github.com:jchenhsch/mask_classification.git 
-    sudo bash gen_file_new.sh
+    ./gen_file_new.sh
   > do I need to make the script executable and no need to type sudo bash?
 
   ### Dependency requirement
