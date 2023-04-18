@@ -116,10 +116,9 @@ def metric_plot(csv_path,model_name,interval):
 
 csv_path = sys.argv[1]
 model_name = sys.argv[2]
-interval = [2,3]
 #csv_path = "ManhattanGridScenario1_CSV"
 # model_name = "ManhattanGrid"
-# interval = [30, 50]
+interval = [30] # change to 50, 200 when needed.
 metric_plot(csv_path,model_name,interval)
 
 """
