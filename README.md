@@ -36,6 +36,11 @@ calc_metric.py: <br/>
     1. main console file that generates the traces, calls the python scripts to generate the metric dataframes and plot the metric dataframes.<br/> 
     2. generate directories for traces, plot outputs and traces dataframes. <br/> 
     3. output the final result by moving the relevant files to the corresponding directory. <br/> 
+  
+## Data directory
+
+To access the data of simulation traces (interval=20,50,200):
+  https://drive.google.com/drive/folders/144HP5zl6B26SP0oV5w7UBkpG2hxyQsvj?usp=sharing
     
 ## Authors
 Jiaxuan Chen
