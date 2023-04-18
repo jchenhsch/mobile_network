@@ -39,7 +39,7 @@ calc_metric.py: <br/>
   
 ## Data directory
 
-To access the data of simulation traces (interval=20,50,200):
+To access the data of simulation traces (duration= 900, interval=20,50,200):
   https://drive.google.com/drive/folders/144HP5zl6B26SP0oV5w7UBkpG2hxyQsvj?usp=sharing
     
 ## Authors
